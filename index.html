@@ -31,7 +31,7 @@
       font-size: 1.2em;
       text-align: left;
       margin-right: 5px;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Times New Roman", Times, serif;
     }
     
     #banner ul {
@@ -54,6 +54,7 @@
     
     #banner a:hover {
       background-color: #ddd;
+      font-style: italic;
       font-family: "Times New Roman", Times, serif;
     }
     
@@ -72,9 +73,8 @@
     }
     
     #portfolio-heading {
-      display: inline-block;
-      vertical-align: top;
-      margin-right: 20px;
+      display: flex;
+      align-items: flex-start;
     }
     
     .dropdown-content {
@@ -97,16 +97,9 @@
       display: block;
     }
     
-    #portfolio-link {
-      display: inline-block;
-      vertical-align: top;
-    }
-    
     #contact-details {
-      margin-top: 20px;
+      margin-top: 40px;
       text-align: left;
-      display: inline-block;
-      vertical-align: top;
     }
     
     #photo img {
@@ -134,22 +127,4 @@
       <div class="dropdown-content">
         <a href="#">PORTFOLIO</a>
         <a href="#">CV</a>
-        <a href="#">SEE MORE</a>
-      </div>
-    </div>
-    
-    <a href="bnoske-portfolio.pdf" id="portfolio-link">Visit Portfolio</a>
-    
-    <section id="contact-details">
-      <h3>CONTACT</h3>
-      <p>Email: <a href="mailto:ben.noske@gmail.com">ben.noske@gmail.com</a></p>
-      <p>Phone: 0438 890 905</p>
-      <p>Location: Melbourne</p>
-    </section>
-    
-    <div id="photo">
-      <img src="DSC09680.JPG" alt="Example Photo">
-    </div>
-  </section>
-</body>
-</html>
+        <a href="#">SEE MORE</a
