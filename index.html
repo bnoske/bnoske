@@ -3,10 +3,14 @@
 <head>
   <title>Benjamin Noske - Portfolio</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+    
     body {
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      margin-left: 305px;
-      margin-top: 5;
+      margin: 0;
+      padding: 0;
     }
     
     #banner {
@@ -18,7 +22,13 @@
       background-color: #f2f2f2;
       padding: 20px;
       color: black;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    
+    #banner h3 {
+      margin: 0;
+      padding: 10px 0;
+      font-size: 1.2em;
+      text-align: center;
     }
     
     #banner ul {
@@ -32,45 +42,75 @@
     }
     
     #banner a {
+      display: block;
+      padding: 8px 0;
       text-decoration: none;
       color: black;
+      text-align: center;
+    }
+    
+    #banner a:hover {
+      background-color: #ddd;
+    }
+    
+    section {
+      margin-left: 220px;
+      padding: 20px;
     }
     
     h1, h2, h3 {
-      margin-top: 0;
+      margin: 0;
     }
     
-    #photo {
-      text-align: left;
+    a {
+      text-decoration: none;
+      color: #333;
+    }
+    
+    #portfolio-link {
+      display: block;
+      margin-top: 20px;
+      text-align: center;
+      font-size: 1.2em;
+    }
+    
+    #contact-details {
+      margin-top: 40px;
+    }
+    
+    #photo img {
+      display: block;
+      margin: 40px auto;
+      max-width: 100%;
+      height: auto;
     }
   </style>
 </head>
 <body>
   <div id="banner">
+    <h3>BENJAMIN NOSKE</h3>
     <ul>
-      <h3>BENJAMIN NOSKE</h3>
       <li><a href="index.html">HOME</a></li>
       <li><a href="work.html">WORK</a></li>
       <li><a href="about.html">ABOUT</a></li>
-      <li><a href="contact.html">CONTACT</a></l
+      <li><a href="contact.html">CONTACT</a></li>
     </ul>
   </div>
-   <section>
-  <br>
-  <h2>PORTFLIO</h2>
+  
+  <section>
+    <h2>PORTFOLIO</h2>
+    <a href="bnoske-portfolio.pdf" id="portfolio-link">Visit Portfolio</a>
+    
+    <section id="contact-details">
+      <h3>Contact Details</h3>
+      <p>Email: <a href="mailto:ben.noske@gmail.com">ben.noske@gmail.com</a></p>
+      <p>Phone: 0438 890 905</p>
+      <p>Location: Melbourne</p>
     </section>
-
-  <a href="bnoske-portfolio.pdf">Visit Portfolio</a>
-  <section>
-  <section>
-    <h3>Contact Details</h3>
-    <p>Email: ben.noske@gmail.com</p>
-    <p>Phone: 0438 890 905</p>
-    <p>Location: Melbourne</p>
-
-  <div id="photo">
-    <img src="DSC09680.JPG" alt="Example Photo" width="600" height="800">
-  </div>
+    
+    <div id="photo">
+      <img src="DSC09680.JPG" alt="Example Photo">
+    </div>
   </section>
 </body>
 </html>
