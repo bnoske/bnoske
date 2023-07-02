@@ -19,18 +19,17 @@
       top: 0;
       bottom: 0;
       width: 220px;
-      background-color: rgba(242, 242, 242, 0.8);
+      background-color: #f2f2f2;
       padding: 20px;
-      color: #333;
+      color: black;
       text-align: right;
-      font-style: italic;
     }
     
     #banner h3 {
       margin: 0;
       padding: 10px 0;
       font-size: 1.2em;
-      text-align: right;
+      text-align: left;
       margin-right: 5px;
     }
     
@@ -48,17 +47,21 @@
       display: block;
       padding: 8px 0;
       text-decoration: none;
-      color: #333;
-      text-align: right;
+      color: black;
+      text-align: left;
     }
     
     #banner a:hover {
       background-color: #ddd;
+      font-style: italic;
     }
     
     section {
       margin-left: 240px;
       padding: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
     }
     
     h1, h2, h3 {
@@ -78,15 +81,15 @@
     .dropdown-content {
       display: none;
       position: absolute;
-      background-color: rgba(242, 242, 242, 0.8);
-      min-width: 200px;
+      background-color: #f2f2f2;
+      min-width: 120px;
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
       padding: 12px 16px;
       z-index: 1;
     }
     
     .dropdown-content a {
-      color: #333;
+      color: black;
       text-decoration: none;
       display: block;
     }
@@ -113,25 +116,26 @@
     <h3>BENJAMIN NOSKE</h3>
     <ul>
       <li><a href="index.html">HOME</a></li>
-      <li class="dropdown">
-        <div id="portfolio-heading">PORTFOLIO
-          <div class="dropdown-content">
-            <a href="#">PORTFOLIO</a>
-            <a href="#">CV</a>
-            <a href="#">SEE MORE</a>
-          </div>
-        </div>
-      </li>
+      <li><a href="work.html">WORK</a></li>
       <li><a href="about.html">ABOUT</a></li>
       <li><a href="contact.html">CONTACT</a></li>
     </ul>
   </div>
   
   <section>
+    <div id="portfolio-heading" class="dropdown">
+      <h2>PORTFOLIO</h2>
+      <div class="dropdown-content">
+        <a href="#">PORTFOLIO</a>
+        <a href="#">CV</a>
+        <a href="#">SEE MORE</a>
+      </div>
+    </div>
+    
     <a href="bnoske-portfolio.pdf" id="portfolio-link">Visit Portfolio</a>
     
     <section id="contact-details">
-      <h3>Contact Details</h3>
+      <h3>CONTACT</h3>
       <p>Email: <a href="mailto:ben.noske@gmail.com">ben.noske@gmail.com</a></p>
       <p>Phone: 0438 890 905</p>
       <p>Location: Melbourne</p>
