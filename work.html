@@ -3,80 +3,122 @@
 <head>
   <title>Benjamin Noske - Portfolio</title>
   <style>
-    * {
-      box-sizing: border-box;
-    }
-    
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: rgb(175, 170, 156);
-    }
-    
-    #banner {
-      position: fixed;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      width: 200px;
-      background-color: #f2f2f2;
-      padding: 20px;
-      color: black;
-      text-align: right;
-      font-size: 20px;
-      display: inline-block;
-  
-    }
-    
-    #banner h3 {
-      margin: 0;
-      padding: 10px 0;
-      font-size: 1.4em;
-      margin-bottom: 10px;
-      text-align: left;
-      margin-right: 5px;
-      font-family: "Times New Roman", Times, serif;
-    }
-    
-    #banner ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-    }
-    
-    #banner li {
-      margin-bottom: 10px;
-    }
-    
-    #banner a {
-      display: block;
-      padding: 8px 0;
-      text-decoration: none;
-      color: black;
-      text-align: left;
-    }
-    
-    #banner a:hover {
-      background-color: #ddd;
-      font-style: italic;
-      font-family: "Times New Roman", Times, serif;
-    }
-    
-    section {
-      margin-left: 220px;
-      padding: 20px;
-    }
-    
-    h1, h2, h3 {
-      margin: 0;
-      text-align:left
-    }
-    
-    a {
-      text-decoration: none;
-      color: #333;
-    }
+            * {
+              box-sizing: border-box;
+            }
+
+            body {
+              font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+             background-color: rgb(196, 191, 175);
+            }
+      #section-heading {
+        font-size: 28px;
+        text-decoration: underline;
+        font-family:'Times New Roman', Times, serif;
+            }
+      #body-text {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+      }
+      #body-text-2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+      }
+
+      #bottom-banner {
+        font-size: 30px;
+      }
+
+        #banner {
+          width: 100%;
+          background-color: #f2f2f2;
+          padding: 5px;
+          color: black;
+          font-size: 20px;
+          display: inline-block;
+            }
+
+        #home-logo {
+          margin: 0;
+          padding: 10px 0;
+          font-size: 1.4em;
+          margin-bottom: 10px;
+          margin-right: 5px;
+          padding-right: 1000px;
+          display: inline-block;
+            }
+
+        #banner ul {
+          padding: 0;
+          margin: 0;
+          display: inline-block;
+          text-align: right;
+          padding: 5px;
+            }
+
+        #banner li {
+          margin-bottom: 10px;
+            }
+
+        #banner a {
+          display: inline-block;
+          padding: 20px;
+          text-decoration: none;
+          color: black;
+          text-align: left;
+            }
+
+        #banner a:hover {
+          background-color: #ddd;
+          font-style: italic;
+          font-family: "Times New Roman", Times, serif;
+            }
+
+        section {
+          margin-left: 50px;
+          padding: 30px;
+            }
+            
+            a {
+              text-decoration: none;
+              color: #333;
+            }
+
+            #webpage-heading {
+              vertical-align: top;
+              margin-bottom: 40px;
+              margin-top: 0px;
+              font-size: 30px;
+              font-family: times;
+              text-align: left;
+              width: 1500px;
+              padding-bottom: 10px;
+            }
+
+            #webpage-heading p {
+              font-size: 40px
+              
+            }
+
+            #body-block {
+              padding-left: 10px;
+              padding-right: 100px;
+              padding-bottom: 20px;
+              padding-top: 20px;
+              margin-top: 0px;
+              margin-right: 20px;
+              vertical-align: top
+            }
+            #portfolio-heading {
+              text-align: left
+            }
+          #about-me {
+            Padding-top: 40px;
+            Width: 1200px;
+            font-size: 25px;
+          }
     .PROJECT-PHOTOS {
       MARGIN-LEFT: 300px;
       padding: 10px;
@@ -90,7 +132,7 @@
       object-fit: cover;
       margin: 8px;
     }
-    }
+    
 
   #a001 {
     display: inline block;
@@ -102,72 +144,70 @@
   }
   #a002 {
     display: block;
-    padding: 10px
+    padding: 10px;
     vertical-align: top;
     
   }
   </style>
 </head>
-<body>
-  <div id="banner">
-    <h3>BENJAMIN NOSKE</h3>
-    <ul>
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="work.html">WORK</a></li>
-      <li><a href="about.html">ABOUT</a></li>
-      <li></li><a href="bnoske-portfolio.pdf" id="portfolio-link">PORTFOLIO</a></li>
-    </ul>
-  </div>
+  <body id="overall">
+    <div id="banner">
+      <a href="index.html" id="home-logo">BENJAMIN NOSKE</a>
+      <ul>
+        <a href="work.html">WORK</a>
+        <a href="bnoske-portfolio.pdf" id="portfolio-link">PORTFOLIO</a>
+      </ul>
+    </div>
   <div class="PROJECT-PHOTOS">
     <div id="a001">
-      <img class="thumbnail" src="001.jpg">
-      <img class="thumbnail" src="002.jpg">
-      <img class="thumbnail" src="034.jpg">
-      <img class="thumbnail" src="035.jpg">
-      <img class="thumbnail" src="036.jpg">
-      <img class="thumbnail" src="037.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/001.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/002.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/002.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/035.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/036.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/037.jpg">
     </div>
     <div id="a001">
-      <img class="thumbnail" src="003.jpg">
-      <img class="thumbnail" src="004.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/003.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/004.jpg">
     </div>
     <div id="a002">
-      <img class="thumbnail" src="005.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/005.jpg">
     </div>
     <div id="a001">
-      <img class="thumbnail" src="006.jpg">
-      <img class="thumbnail" src="007.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/006.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/007.jpg">
     </div>
     <div id="a001">
-      <img class="thumbnail" src="008.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/008.jpg">
       
     </div>
     <div id="a001">
-      <img class="thumbnail" src="010.jpg">
-      <img class="thumbnail" src="013.jpg">
-      <img class="thumbnail" src="014.jpg">
-      <img class="thumbnail" src="017.jpg">
-      <img class="thumbnail" src="021.jpg">
-      <img class="thumbnail" src="022.jpg">
-      <img class="thumbnail" src="025.jpg">
-      <img class="thumbnail" src="026.jpg">
-      <img class="thumbnail" src="028.jpg">
-      <img class="thumbnail" src="031.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/010.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/013.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/014.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/017.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/021.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/022.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/025.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/026.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/028.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/031.jpg">
     </div>
     <div id="a001">
-      <img class="thumbnail" src="034.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/034.jpg">
     </div>
     <div id="a001">
-      <img class="thumbnail" src="038.jpg">
-      <img class="thumbnail" src="039.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/038.jpg">
+      <img class="thumbnail" src="/PROJECT_PHOTOS/039.jpg">
     </div>
   <div id="a001">
-    <img class="thumbnail" src="040.jpg">
-    <img class="thumbnail" src="041.jpg">
-    <img class="thumbnail" src="042.jpg">
-    <img class="thumbnail" src="043.jpg">
-    <img class="thumbnail" src="045.jpg">
-    <img class="thumbnail" src="049.jpg">
+    <img class="thumbnail" src="/PROJECT_PHOTOS/040.jpg">
+    <img class="thumbnail" src="/PROJECT_PHOTOS/041.jpg">
+    <img class="thumbnail" src="/PROJECT_PHOTOS/042.jpg">
+    <img class="thumbnail" src="/PROJECT_PHOTOS/043.jpg">
+    <img class="thumbnail" src="/PROJECT_PHOTOS/045.jpg">
+    <img class="thumbnail" src="/PROJECT_PHOTOS/049.jpg">
   </div>
   </section>
 </body>
