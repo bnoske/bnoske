@@ -32,33 +32,30 @@
       }
 
         #banner {
-          position: fixed;reo
-          left: 0;
-          top: 0;
-          bottom: 0;
-          width: 200px;
+          width: 100%;
           background-color: #f2f2f2;
           padding: 20px;
           color: black;
-          text-align: right;
           font-size: 20px;
           display: inline-block;
             }
 
-        #banner h3 {
+        #home-logo {
           margin: 0;
           padding: 10px 0;
           font-size: 1.4em;
           margin-bottom: 10px;
-          text-align: left;
           margin-right: 5px;
-          font-family: "Times New Roman", Times, serif;
+          padding-right: 1000px;
+          display: inline-block;
             }
 
         #banner ul {
-          list-style-type: none;
           padding: 0;
           margin: 0;
+          display: inline-block;
+          text-align: right;
+          padding: 5px;
             }
 
         #banner li {
@@ -66,8 +63,8 @@
             }
 
         #banner a {
-          display: block;
-          padding: 8px 0;
+          display: inline-block;
+          padding: 20px;
           text-decoration: none;
           color: black;
           text-align: left;
@@ -83,13 +80,7 @@
           margin-left: 220px;
           padding: 30px;
             }
-
-            h1,
-            h2,
-            h3 {
-              margin: 0;
-              text-align: left;
-            }
+            
             a {
               text-decoration: none;
               color: #333;
@@ -127,12 +118,12 @@
 
   <body id="overall">
     <div id="banner">
-      <h3>BENJAMIN NOSKE </h3>
+      <a href="index.html" id="home-logo">BENJAMIN NOSKE</a>
       <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="work.html">WORK</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li></li><a href="bnoske-portfolio.pdf" id="portfolio-link">PORTFOLIO</a></li>
+        <a href="index.html">HOME</a>
+        <a href="work.html">WORK</a>
+        <a href="about.html">ABOUT</a>
+        <a href="bnoske-portfolio.pdf" id="portfolio-link">PORTFOLIO</a>
       </ul>
     </div>
 
@@ -163,8 +154,8 @@
         <p id="body-text">3D CAD Design (SOLIDWORKS)</p>
         <p id="body-text">Design for Manufacturing</p>
         <p id="body-text">Prototyping</p>
-        <p id="body-text">Sheet metal design development</p>
-        <p id="body-text">Plastic part design development</p>
+        <p id="body-text">Sheet metal design and optimisation</p>
+        <p id="body-text">Plastic part design and optimisation</p>
         <p id="body-text">Engineering drawings for manufacturing</p>
       </div>
 
