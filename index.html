@@ -11,7 +11,7 @@
               font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
               margin: 0;
               padding: 0;
-             background-color: rgb(175, 170, 156);
+             background-color: rgb(196, 191, 175);
             }
       #section-heading {
         font-size: 28px;
@@ -34,7 +34,7 @@
         #banner {
           width: 100%;
           background-color: #f2f2f2;
-          padding: 20px;
+          padding: 5px;
           color: black;
           font-size: 20px;
           display: inline-block;
@@ -94,9 +94,12 @@
               font-family: times;
               text-align: left;
               width: 1500px;
-            {
+              padding-bottom: 10px;
+            }
+
             #webpage-heading p {
               font-size: 40px
+              
             }
 
             #body-block {
@@ -116,6 +119,35 @@
             Width: 1200px;
             font-size: 25px;
           }
+          .PROJECT-PHOTOS {
+      MARGIN-LEFT: 300px;
+      padding: 10px;
+      width: 2000px;
+    }
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      margin: 8px;
+    }
+    }
+
+  #a001 {
+    display: inline block;
+    padding: 10px;
+    vertical-align: top;
+  
+    
+    
+  }
+  #a002 {
+    display: block;
+    padding: 10px
+    vertical-align: top;
+    
+  }
     </style>
   </head>
 
@@ -124,7 +156,6 @@
       <a href="index.html" id="home-logo">BENJAMIN NOSKE</a>
       <ul>
         <a href="work.html">WORK</a>
-        <a href="about.html">ABOUT</a>
         <a href="bnoske-portfolio.pdf" id="portfolio-link">PORTFOLIO</a>
       </ul>
     </div>
@@ -132,7 +163,7 @@
     <section>
     <div id="webpage-heading">
         <p>
-          An experienced Product Design Engineer, specialising in END-TO-END
+          An experienced Product Design Engineer, specializing in END-TO-END
           product development.
         </p>
       </div>
@@ -143,32 +174,35 @@
   </div>
 
       <div id="body-block">
-        <li><p id="section-heading">SERVICES</p></li>
-        <li><p id="body-text">Product Design</p><li>
-        <li><p id="body-text">Mechanical Engineering</p><li>
-        <li><p id="body-text">Industrial Design</p><li>
-        <li><p id="body-text">Rendering and Product Photography</p><li>
-        
+        <p id="section-heading">SERVICES</p>
+        <ul>
+          <li><p id="body-text">Product Design</p></li>
+          <li><p id="body-text">Mechanical Engineering</p></li>
+          <li><p id="body-text">Industrial Design</p></li>
+        <li><p id="body-text">Rendering and Product Photography</p></li>
+        </ul>
       </div>
 
       <div id="body-block">
         <p id="section-heading">CAPABILITIES</p>
-        <p id="body-text">3D CAD Design (SOLIDWORKS)</p>
-        <p id="body-text">Design for Manufacturing</p>
-        <p id="body-text">Prototyping</p>
-        <p id="body-text">Sheet metal design and optimisation</p>
-        <p id="body-text">Plastic part design and optimisation</p>
-        <p id="body-text">Engineering drawings for manufacturing</p>
+        <ul>
+          <li><p id="body-text">3D CAD Design (SOLIDWORKS)</p></li>
+            <li><p id="body-text">Design for Manufacturing</p></li>
+              <li><p id="body-text">Prototyping</p></li>
+                <li><p id="body-text">Sheet metal design and optimisation</p></li>
+                  <li><p id="body-text">Plastic part design and optimisation</p></li>
+                    <li><p id="body-text">Engineering drawings for manufacturing</p></li>
+      </ul>
       </div>
 
       <div id="body-block">
         <div id="contact-details">
           <p id="section-heading">CONTACT</p>
-          <p id="body-text-2">
-          <a href="mailto:ben.noske@gmail.com">ben.noske@gmail.com</a>
-          </p>
-          <p id="body-text-2">0438 890 905</p>
-          <p id="body-text-2">Melbourne, Australia</p>
+          <ul>
+            <li><p id="body-text-2"><a href="mailto:ben.noske@gmail.com">ben.noske@gmail.com</a></p></li>
+                  <li><p id="body-text-2">0438 890 905</p></li>
+                    <li><p id="body-text-2">Melbourne, Australia</p></li>
+        </ul>
         </div>
       </div>
      
