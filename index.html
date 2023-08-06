@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name=" viewport" contents="width=device-width, initial-scale=1.0">
     <title>Benjamin Noske - Portfolio</title>
     <style>
-            * {
+      @media only screen and (minwidth: 768px)
+           * {
               box-sizing: border-box;
             }
 
@@ -11,7 +14,7 @@
               font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
               margin: 0;
               padding: 0;
-             background-color: rgb(175, 170, 156);
+             background-color: rgb(196, 191, 175);
             }
       #section-heading {
         font-size: 28px;
@@ -32,33 +35,30 @@
       }
 
         #banner {
-          position: fixed;reo
-          left: 0;
-          top: 0;
-          bottom: 0;
-          width: 200px;
+          width: 100%;
           background-color: #f2f2f2;
-          padding: 20px;
+          padding: 5px;
           color: black;
-          text-align: right;
           font-size: 20px;
           display: inline-block;
             }
 
-        #banner h3 {
+        #home-logo {
           margin: 0;
           padding: 10px 0;
           font-size: 1.4em;
           margin-bottom: 10px;
-          text-align: left;
           margin-right: 5px;
-          font-family: "Times New Roman", Times, serif;
+          padding-right: 1000px;
+          display: inline-block;
             }
 
         #banner ul {
-          list-style-type: none;
           padding: 0;
           margin: 0;
+          display: inline-block;
+          text-align: right;
+          padding: 5px;
             }
 
         #banner li {
@@ -66,8 +66,8 @@
             }
 
         #banner a {
-          display: block;
-          padding: 8px 0;
+          display: inline-block;
+          padding: 20px;
           text-decoration: none;
           color: black;
           text-align: left;
@@ -80,16 +80,10 @@
             }
 
         section {
-          margin-left: 220px;
+          margin-left: 50px;
           padding: 30px;
             }
-
-            h1,
-            h2,
-            h3 {
-              margin: 0;
-              text-align: left;
-            }
+            
             a {
               text-decoration: none;
               color: #333;
@@ -97,12 +91,18 @@
 
             #webpage-heading {
               vertical-align: top;
-              margin-bottom: 40px;
+              margin-bottom: 30px;
               margin-top: 0px;
               font-size: 30px;
               font-family: times;
               text-align: left;
-              width: 1500px;
+              padding-bottom: 10px;
+              font-style: italic;
+            }
+
+            #webpage-heading p {
+              font-size: 40px
+              
             }
 
             #body-block {
@@ -117,55 +117,93 @@
             #portfolio-heading {
               text-align: left
             }
-            
+          #about-me {
+            Padding-top: 40px;
+            font-size: 25px;
+          }
+          .PROJECT-PHOTOS {
+      MARGIN-LEFT: 300px;
+      padding: 10px;
+      width: 2000px;
+    }
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      margin: 8px;
+    }
+  
+
+  #a001 {
+    display: inline block;
+    padding: 10px;
+    vertical-align: top;
+  
+    
+    
+  }
+  #a002 {
+    display: block;
+    padding: 10px;
+    vertical-align: top;
+    }
     </style>
   </head>
 
   <body id="overall">
     <div id="banner">
-      <h3>BENJAMIN NOSKE </h3>
+      <a href="index.html" id="home-logo">BENJAMIN NOSKE</a>
       <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="work.html">WORK</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li></li><a href="bnoske-portfolio.pdf" id="portfolio-link">PORTFOLIO</a></li>
+        <a href="work.html">WORK</a>
+        <a href="bnoske-portfolio.pdf" id="portfolio-link">PORTFOLIO</a>
       </ul>
     </div>
 
     <section>
-      <div id="webpage-heading">
+    <div id="webpage-heading">
         <p>
-          An experienced Product Design Engineer, specialising in END-TO-END
+          An experienced Product Design Engineer, specializing in END-TO-END
           product development.
         </p>
       </div>
 
+    <div id="body-text"> <p>I can apply experience in both Design and Engineering to bring value through carefully considered solutions.
+    <p>Please feel free to contact me to discuss a project or opportunity for work. Detailed CV available upon request.</p>
+  </p>
+  </div>
+
       <div id="body-block">
         <p id="section-heading">SERVICES</p>
-        <p id="body-text">Product Design</p>
-        <p id="body-text">Mechanical Engineering</p>
-        <p id="body-text">Industrial Design</p>
-        <p id="body-text">Product Development</p>
+        <ul>
+          <li><p id="body-text">Product Design</p></li>
+          <li><p id="body-text">Mechanical Engineering</p></li>
+          <li><p id="body-text">Industrial Design</p></li>
+        <li><p id="body-text">Rendering and Product Photography</p></li>
+        </ul>
       </div>
 
       <div id="body-block">
         <p id="section-heading">CAPABILITIES</p>
-        <p id="body-text">3D CAD Design (SOLIDWORKS)</p>
-        <p id="body-text">Product Developent</p>
-        <p id="body-text">Design for Manufacturing</p>
-        <p id="body-text">Sheet metal design</p>
-        <p id="body-text">Plastic part design</p>
-        <p id="body-text">Engineering drawings for manufacturing</p>
+        <ul>
+          <li><p id="body-text">3D CAD Modelling (SOLIDWORKS)</p></li>
+            <li><p id="body-text">Design for Manufacturing</p></li>
+          <li><p id="body-text">Product Engineering</p></li>
+              <li><p id="body-text">Prototyping</p></li>
+              <li><p id="body-text">Mechanical Design</p></li>
+              <li><p id="body-text">Engineering Drawings (AS1100)</p></li>
+      </ul>
       </div>
 
       <div id="body-block">
         <div id="contact-details">
           <p id="section-heading">CONTACT</p>
-          <p id="body-text-2">
-          <a href="mailto:ben.noske@gmail.com">ben.noske@gmail.com</a>
-          </p>
-          <p id="body-text-2">0438 890 905</p>
-          <p id="body-text-2">Melbourne, Australia</p>
+          <ul>
+            <li><p id="body-text-2"><a href="mailto:ben.noske@gmail.com">ben.noske@gmail.com</a></p></li>
+                  <li><p id="body-text-2">0438 890 905</p></li>
+                    <li><p id="body-text-2">Melbourne, Australia</p></li>
+        </ul>
         </div>
       </div>
      

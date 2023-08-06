@@ -1,106 +1,228 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Benjamin Noske - Portfolio</title>
-  <style>
-    * {
-      box-sizing: border-box;
+  <head>
+    <meta charset="utf-8">
+    <meta name=" viewport" contents="width=device-width, initial-scale=1.0">
+    <title>Benjamin Noske - Portfolio</title>
+    <style>
+      @media only screen and (minwidth: 768px)
+        {
+              box-sizing: border-box;
+            }
+
+            body {
+              font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+             background-color: rgb(196, 191, 175);
+            }
+      #section-heading {
+        font-size: 28px;
+        text-decoration: underline;
+        font-family:'Times New Roman', Times, serif;
+            }
+      #body-text {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+      }
+      #body-text-2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+      }
+
+      #bottom-banner {
+        font-size: 30px;
+      }
+
+        #banner {
+          width: 100%;
+          background-color: #f2f2f2;
+          padding: 5px;
+          color: black;
+          font-size: 20px;
+          display: inline-block;
+            }
+
+        #home-logo {
+          margin: 0;
+          padding: 10px 0;
+          font-size: 1.4em;
+          margin-bottom: 10px;
+          margin-right: 5px;
+          padding-right: 1000px;
+          display: inline-block;
+            }
+
+        #banner ul {
+          padding: 0;
+          margin: 0;
+          display: inline-block;
+          text-align: right;
+          padding: 5px;
+            }
+
+        #banner li {
+          margin-bottom: 10px;
+            }
+
+        #banner a {
+          display: inline-block;
+          padding: 20px;
+          text-decoration: none;
+          color: black;
+          text-align: left;
+            }
+
+        #banner a:hover {
+          background-color: #ddd;
+          font-style: italic;
+          font-family: "Times New Roman", Times, serif;
+            }
+
+        section {
+          margin-left: 50px;
+          padding: 30px;
+            }
+            
+            a {
+              text-decoration: none;
+              color: #333;
+            }
+
+            #webpage-heading {
+              vertical-align: top;
+              margin-bottom: 30px;
+              margin-top: 0px;
+              font-size: 30px;
+              font-family: times;
+              text-align: left;
+              padding-bottom: 10px;
+              font-style: italic;
+            }
+      
+            #body-block {
+              padding-left: 10px;
+              padding-right: 100px;
+              padding-bottom: 20px;
+              padding-top: 20px;
+              margin-top: 0px;
+              margin-right: 20px;
+              vertical-align: top
+            }
+            #portfolio-heading {
+              text-align: left
+            }
+          #about-me {
+            Padding-top: 40px;
+            font-size: 25px;
+          }
+          .PROJECT-PHOTOS {
+      MARGIN-LEFT: 50px;
+      padding: 10px;
+      width: 2000px;
     }
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      margin: 8px;
+    }
+  
+
+  #a001 {
+    display: inline block;
+    padding: 10px;
+    vertical-align: top;
+  
     
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: rgb(175, 170, 156);
-    }
     
-    #banner {
-      position: fixed;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      width: 200px;
-      background-color: #f2f2f2;
-      padding: 20px;
-      color: black;
-      text-align: right;
-      font-size: 20px;
-      display: inline-block;
+  }
+  #a002 {
+    display: block;
+    padding: 10px;
+    vertical-align: top;
     }
+</style>
+
+
+
+
+
     
-    #banner h3 {
-      margin: 0;
-      padding: 10px 0;
-      font-size: 1.4em;
-      margin-bottom: 10px;
-      text-align: left;
-      margin-right: 5px;
-      font-family: "Times New Roman", Times, serif;
-    }
-    
-    #banner ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-    }
-    
-    #banner li {
-      margin-bottom: 10px;
-    }
-    
-    #banner a {
-      display: block;
-      padding: 8px 0;
-      text-decoration: none;
-      color: black;
-      text-align: left;
-    }
-    
-    #banner a:hover {
-      background-color: #ddd;
-      font-style: italic;
-      font-family: "Times New Roman", Times, serif;
-    }
-    
-    section {
-      margin-left: 220px;
-      padding: 20px;
-    }
-    
-    h1, h2, h3 {
-      margin: 0;
-      text-align:left
-    }
-    
-    a {
-      text-decoration: none;
-      color: #333;
-    }
-#about-me {
-  Padding-top: 40px;
-  Width: 1200px;
-  Font-size: 25px;
-}
-  </style>
 </head>
-<body>
-  <div id="banner">
-    <h3>BENJAMIN NOSKE</h3>
+  <body id="overall">
+    <div id="banner">
+      <a href="index.html" id="home-logo">BENJAMIN NOSKE</a>
+      <ul>
+        <a href="work.html">WORK</a>
+        <a href="bnoske-portfolio.pdf" id="portfolio-link">PORTFOLIO</a>
+      </ul>
+    </div>
+  <div class="PROJECT-PHOTOS">
+    <div id="a001">
+      <img class="thumbnail" src="WORLDPOLY_HERO-small.jpeg">
+    </div>
+    <div id="a001">
+      <img class="thumbnail" src="001.jpg">
+      <img class="thumbnail" src="002.jpg">
+      <img class="thumbnail" src="036.jpg">
+      <img class="thumbnail" src="037.jpg">
+    </div>
+    <div id="a001">
+      <img class="thumbnail" src="003.jpg">
+      <img class="thumbnail" src="004.jpg">
+    </div>
+    <div id="a002">
+      <img class="thumbnail" src="005.jpg">
+    </div>
+    <div id="a001">
+      <img class="thumbnail" src="006.jpg">
+      <img class="thumbnail" src="007.jpg">
+    </div>
+    <div id="a001">
+      <img class="thumbnail" src="008.jpg">
+      
+    </div>
+    <div id="a001">
+      <img class="thumbnail" src="010.jpg">
+      <img class="thumbnail" src="013.jpg">
+      <img class="thumbnail" src="014.jpg">
+      <img class="thumbnail" src="017.jpg">
+      <img class="thumbnail" src="021.jpg">
+      <img class="thumbnail" src="022.jpg">
+      <img class="thumbnail" src="025.jpg">
+      <img class="thumbnail" src="026.jpg">
+      <img class="thumbnail" src="028.jpg">
+      <img class="thumbnail" src="031.jpg">
+    </div>
+    <div id="a001">
+      <img class="thumbnail" src="034.jpg">
+    </div>
+    <div id="a001">
+      <img class="thumbnail" src="038.jpg">
+      <img class="thumbnail" src="039.jpg">
+    </div>
+  <div id="a001">
+    <img class="thumbnail" src="040.jpg">
+    <img class="thumbnail" src="041.jpg">
+    <img class="thumbnail" src="042.jpg">
+    <img class="thumbnail" src="043.jpg">
+    <img class="thumbnail" src="045.jpg">
+    <img class="thumbnail" src="049.jpg">
+  </div>
+  <div id="body-block">
+    <div id="contact-details">
+    <p id="section-heading">CONTACT</p>
     <ul>
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="work.html">WORK</a></li>
-      <li><a href="about.html">ABOUT</a></li>
-      <li></li><a href="bnoske-portfolio.pdf" id="portfolio-link">PORTFOLIO</a></li>
+    <li><p id="body-text-2"><a href="mailto:ben.noske@gmail.com">ben.noske@gmail.com</a></p></li>
+    <li><p id="body-text-2">0438 890 905</p></li>
+    <li><p id="body-text-2">Melbourne, Australia</p></li>
     </ul>
-  </div>
-<section>
-  <div id="about-me"> <p>A qualified Design Engineer with 3 years of professional experience, working from Melbourne, Australia.
-    Ben has been exposed to a wide range of skills in Design, Engineering and Manufacturing, specialising in product development in Solidworks.
-
-
-    <p>Please feel free to contact to discuss a project or opportunity for work. Detailed CV available upon request.</p>
-  </p>
-  </div>
-</section>
-</body>
+    </div>
+    </div>
+     
+  </section>
+  </body>
 </html>
